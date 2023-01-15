@@ -1,0 +1,98 @@
+    body {
+        width: auto;
+        height: 100wh;
+        background-color: black;
+        color: white;
+      }
+      h1{
+        color: black;
+      }
+      header{
+        text-align: center;
+        background-color: white;
+        width: 98vw;
+        margin: -10px 0px ;
+        padding: 0px;
+      }
+      menu{
+        background-color: white;
+        width: 25px;
+        height: 25px;
+        padding: 1px;
+        text-align: center;
+        
+      }
+      .divmenu{
+        background-color: black;
+        width: 20px;
+        height: 5px;
+        margin: 2px 2px 2px 2px;
+      }
+      main{
+        margin-left: 1px;
+        width: 90vw;
+        height: 103vh;
+        background-color: white;
+      }
+      #tela{
+        display: flex;
+      }
+      #imagemlis{
+        list-style-type: none;
+        box-decoration-break: unset;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: baseline;
+       } 
+       .im{
+        border: 1px solid black;
+       }
+      form {
+        background-color: white;
+        width: 200px;
+        height: 300px;
+        margin: 50px auto;
+        text-align: center;
+        padding: 40px;
+        border-radius: 60px;
+      }
+      section{
+        padding: 10px ;
+        margin: -10px 5px px 5px;
+        display:none;
+        width: 100px;
+        height: 100vh;
+        background-color: white;
+      }
+      ul{
+        padding-left: 15px;
+      }
+      input {
+        display: block;
+        width: 200px;
+        height: 30px;
+        margin: 10px auto;
+        border-radius: 10px;
+      }
+      .input:hover{
+        background-color: aqua;
+      }
+      #botao {
+        width: 210px;
+        height: 40px;
+      }
+      #botao:hover {
+        background-color: blue;
+        color: white;
+      }
+      #voltar{
+        background-color:white ;
+        width: 40px;
+        border: 3px solid blue; 
+      }
+      .logos{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+      }
