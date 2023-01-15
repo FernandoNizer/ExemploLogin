@@ -7,6 +7,5 @@ if (display = "none"){
 }else if(display = "block") {
   document.querySelector("section").style.display = "none";
 }
-
-
+ 
 }
