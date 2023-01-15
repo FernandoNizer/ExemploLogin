@@ -1,2 +1,2 @@
-<a href="https://fernandonizer.github.io/ExemploLogin/"target="blank"># Página ExemploLogin</a>
+<a href="https://fernandonizer.github.io/ExemploLogin/"># Página ExemploLogin</a>
  
