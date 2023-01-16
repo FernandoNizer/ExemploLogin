@@ -2,7 +2,7 @@
         width: auto;
         height: 100wh;
         background-color: black;
-        color: white;
+        color:black;
       }
       h1{
         color: black;
@@ -31,19 +31,22 @@
       main{
         margin-left: 1px;
         width: 90vw;
-        height: 103vh;
+        height: auto;
         background-color: white;
+        
       }
       #tela{
         display: flex;
+        
       }
       #imagemlis{
         list-style-type: none;
         box-decoration-break: unset;
-        display: flex;
+        display:flex;
         justify-content: space-evenly;
-        flex-direction: row;
-        align-items: baseline;
+        flex-wrap:wrap;
+        margin:10px;
+        text-align: center;
        } 
        .im{
         border: 1px solid black;
