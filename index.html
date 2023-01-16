@@ -9,10 +9,8 @@
     <script src="https://kit.fontawesome.com/2244755150.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div style="color: white;">
-      <p>Usuário: Admin</p>
-      <p>Senha: 1234</p>
-    </div>
+    <p>Usuário: admin</p>
+    <p>Senha: 1234</p>
     <form>
       <h2>Login</h2>
       <input class="input" type="text" id="login" placeholder="Nome de Usuário" />
@@ -30,7 +28,7 @@
         var login = document.getElementById("login").value;
         var senha = document.getElementById("senha").value;
 
-        if (login == "admin" && senha == 1234) {
+        if (login == "Admin" && senha == 1234) {
           location.href = "home.html";
           alert("Tudo ok!");
         } else {
